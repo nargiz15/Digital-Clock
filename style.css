@@ -1,0 +1,68 @@
+:root{
+    --color: black;
+    --background-color: #F0F8FF;
+    --clockbackground-color: white;
+    --hourbackground-color:#CCE4F7FF
+    /* #F0F8FF */
+
+}
+
+.dark{
+    --color: white;
+    --background-color: #323840;
+    --clockbackground-color:  rgba(40, 41, 60, 0.526);
+    --hourbackground-color: #323840;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:  #323840; ;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    height: 220px;
+    max-width: 560px;
+    width: 100%;
+    background-color:  rgba(40, 41, 60, 0.526);
+    border-radius: 10px;
+}
+.clock span{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #323840;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+.clock p{
+    font-size: 45px;
+    color: white;
+}
+/* icon elave etmisdim dark mood ucun: */
+/* elave etmek istesez yuxarida dark mooda kecid ucun css yazilib */
+/* .icons{
+    position: relative;
+    right: 25px;
+    top: -80px;
+    color: var(--color);
+    cursor: pointer;
+   
+} */
