@@ -1,18 +1,4 @@
-:root{
-    --color: black;
-    --background-color: #F0F8FF;
-    --clockbackground-color: white;
-    --hourbackground-color:#CCE4F7FF
-    /* #F0F8FF */
 
-}
-
-.dark{
-    --color: white;
-    --background-color: #323840;
-    --clockbackground-color:  rgba(40, 41, 60, 0.526);
-    --hourbackground-color: #323840;
-}
 
 *{
     margin: 0px;
@@ -56,13 +42,3 @@
     font-size: 45px;
     color: white;
 }
-/* icon elave etmisdim dark mood ucun: */
-/* elave etmek istesez yuxarida dark mooda kecid ucun css yazilib */
-/* .icons{
-    position: relative;
-    right: 25px;
-    top: -80px;
-    color: var(--color);
-    cursor: pointer;
-   
-} */

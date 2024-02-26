@@ -1,21 +1,5 @@
 const clock = document.querySelector(".clock")
 
-// dark mooda kecid ucun
-
-// const moon = document.querySelector(".fa-moon")
-
-// moon.addEventListener("click", ()=>{
-//   if( document.body.classList.toggle("dark")){
-//     const moon = document.querySelector(".fa-moon")
-    
-//   }
-//   else(
-//         title.textContent=("Light Theme") 
-//   )
-// })
-
-
-
 
 
 const tiktak =()=>{
